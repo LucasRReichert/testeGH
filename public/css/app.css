@@ -1,0 +1,158 @@
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.imagem-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 300px;
+}
+
+.bold-description {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.title-paragraph {
+  padding-top: 50px;
+}
+
+.title-paragraph .title-page {
+  font-size: 32px;
+  color: #0075bf;
+  font-weight: 700;
+}
+
+.title-paragraph p {
+  font-size: 16px;
+  color: black;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  background-color: white;
+}
+
+.form .form-title {
+  font-size: 24px;
+  color: #0075bf;
+  font-weight: 700;
+}
+
+.label {
+  display: block;
+}
+
+.form-intern {
+  padding: 30px 30px;
+}
+
+.form-intern .input-form {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-intern .input-form:focus {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+}
+
+.send-button {
+  display: flex;
+  justify-content: center;
+  outline: 0;
+  border: transparent;
+  background-color: #0075bf;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  width: 125px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  outline: 0;
+  border: transparent;
+  background-color: #0075bf;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  width: 200px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.section-help .title-help {
+  font-size: 36px;
+  color: #0075bf;
+  font-weight: 700;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.box .box-inter {
+  padding: 20px 15px;
+}
+
+.box .box-inter h2 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.box .box-inter p {
+  font-size: 16px;
+}
+
+.case-box {
+  border: 1px solid black;
+}
+
+.case-box .case-box-internal {
+  padding: 20px 15px;
+}
+
+.case-box .case-box-internal span {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.case-box .case-box-internal p {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #0075bf;
+  padding: 40px 30px;
+}
+
+.footer h1 {
+  margin-top: 20px;
+  color: white;
+}
+
+.footer span {
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+

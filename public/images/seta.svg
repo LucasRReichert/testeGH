@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 42" width="260" height="42">
+	<title>Grupo_43-svg</title>
+	<defs>
+		<image  width="260" height="42" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAAqCAMAAABiB9XKAAAAAXNSR0IB2cksfwAAALpQTFRFAAAA5PD3////+/z84Ov1/f3+9vn7/v7+/v7+////////AAD//////v7+AID//v7+AGbM/f3/+Pn9/f3/4e32////8/n7////9Pj7////9Pj6/////////P3+////8/f68PX6////////+fv9/////////////////////////v7//////v7+////////+/39/////Pz9////+/398Pb7////+/z9AG22/P399Pn7////+fv99/r8v9jrDZNcjwAAAD50Uk5TAHv/7n32y//9FB0BxfsC+QWRiWxWqK/Uv/3TCvTya+roH+p8hrl62eNNxD718SnaaOZY6GEA7Ab47HDO9jQVGWfyAAABEklEQVR4nO2ZyVICQRAFy0KFcUFUUBEVxZ1l3HCX//8tWmKeXrjnoSuPfcrIqOjoxSwjVrxGK+CseoKWgFlzjwruUcHW61HBrBGzYFZEhcSGIvgmrQKyta0KTVqFZEcVWrQJya4q7NEmJPuq0KZNSDqqcECbkByqwhFtQtJVhWPaBKR3ogqntArJ3yxkfXgsokLiTBH69n/Lzpfzi4iQiAg+uIwIfkVvTxzXanBDm3DcVgnu7mkTjqEajGgTjnHVYFLSJhwPVYPBI23C8aQ98Zk24XhRg+krrYLxpgbvtAlGT39xOT+6f6hBvt8v5aca0CYgHg2igVkzGsQcLIgGvywS1L9oDZjU4LugJWjKn9nS9TmbtRLJqxM3MgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="image0" href="#img1" x="0" y="0" />
+</svg>
