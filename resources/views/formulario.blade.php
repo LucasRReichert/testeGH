@@ -13,13 +13,11 @@
     <title>GH Branding</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
+    <header class="row">
+                <div class="col-3">
                     <img src="images/logo.svg" alt="Logo"/>
                 </div>
-                <div class="col-6 d-flex justify-content-around">
+                <div class="col-9 d-flex justify-content-around">
                     <span>Work</span>
                     <span>Services</span>
                     <span>About</span>
@@ -37,65 +35,45 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
     </header>
-    <section>
-      <div>
-            <div class="row">
-                <div class="col-12">
-                    <img src="images/headerImg.svg" alt="Logo" />
+    <section style="background-image: url('images/headerImg.svg'); height: 450px; background-size: cover">
+                <div class="form d-flex justify-content-center mr-sm-0 mr-md-2 mr-lg-5 flex-column" style="padding: 30px 30px; margin-left: auto; position: relative; right: 0; width: 300px; bottom: -33%; right: 20%">
+                            <h2 class="form-title">
+                                Entre em contato!
+                            </h2>                    
+                                <form name="formulario" id="formulario">  
+                                    @csrf
+                                    <input type="hidden" name="id" required/>
+                                    <label class="label">
+                                        Nome: <br>
+                                        <input value="" type="text" id="name" name="name" style="border-top: 0px; border-right: 0px; border-left: 0px; border-bottom:1px solid rgba(0,0,0, 0.1)"/>
+                                    </label>
+
+                                    <label class="label">
+                                        Telefone: <br>
+                                        <input value="" type="tel" id="telephone"  name="telephone" style="border-top: 0px; border-right: 0px; border-left: 0px; border-bottom:1px solid rgba(0,0,0, 0.1)"/>
+                                    </label>
+
+                                    <label class="label">
+                                        E-mail: <br>
+                                        <input value="" type="email" id="email" name="email" style="border-top: 0px; border-right: 0px; border-left: 0px; border-bottom:1px solid rgba(0,0,0, 0.1)"/>
+                                    </label>
+                                    <div class="d-flex justify-content-center">
+                                    <button class="send-button">
+                                        Enviar
+                                    </button>
+                                    </div>  
+                                </form>  
                 </div>
-            </div>
-       </div>
     </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="title-paragraph col-6">
+    <div class="container title-paragraph">
                      <h1 class="title-page">
                     Desenvolvimento <br>de Produtos Digitais
                      <h1>
                     <p style="margin-top: 30px">
                          Brands are built based on the DNA of the companies, while respecting.
                     </p>
-                </div>
-                <div class="col-6 d-flex justify-content-center">
-                    <div class="form" style="width: 350px; height: 350px; margin-top: -350px">
-                    <div class="form-intern">
-                    <h2 class="form-title">
-                        Entre em contato!
-                    </h2>                    
-                    <form name="formulario" id="formulario">  
-                        @csrf
-                             <input type="hidden" name="id" required/>
-                              <label class="label">
-                                   Nome: <br>
-                                  <input value="" type="text" class="input-form" id="name" name="name" />
-                             </label>
-
-                              <label class="label">
-                                 Telefone: <br>
-                                 <input value="" type="tel" class="input-form" id="telephone" name="telephone" />
-                             </label>
-
-                             <label class="label">
-                                 E-mail: <br>
-                                <input value="" type="email" class="input-form" id="email" name="email" />
-                             </label>
-                             <div class="d-flex justify-content-center">
-                             <button class="send-button">
-                                Enviar
-                            </button>
-                             </div>  
-                         </form> 
-                     </div>  
-                    </div>   
-                </div>  
-            </div>
-        </div>
-    </section>
-
+     </div>
     <div style="margin-bottom: 50px">
         <b class="bold-description">
             Brands are built based on the DNA of the companies, while respecting its
@@ -106,117 +84,109 @@
             <br>hearts.
         </b>
     </div>
-    <section class="section-help">
-        <div class="container">
+
+    <section style="width: 80vw; margin: 0 auto">
+        <div class="d-flex justify-content-center container col-12" style="width: 100%">
             <div class="row">
-                <h1 class="title-help">
-                    Como nós ajudamos
-                <h1>
-        </div>
-        <div class="container">
-        <div class="d-flex justify-content-around row">
-                    <div class="box col-3">
-                    <div class="box-inter">
-                        <h2>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing eli,
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <img src="images/setaDiagonal.svg" alt="Logo"/>
+            <h1 class="col-12 title-help" style="color: #0075bf">
+            Como nós ajudamos
+            </h1> 
+                        <div class="box col-sm-12 col-md-6 col-lg-3 m-sm-1  m-lg-5">
+                            <div class="box-inter">
+                                <h2>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing eli,
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
+                                </p>
+                                <div class="d-flex justify-content-end">
+                                    <img src="images/setaDiagonal.svg" alt="Logo"/>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                    <div class="box col-3">
-                    <div class="box-inter">
-                        <h2>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing eli,
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <img src="images/setaDiagonal.svg" alt="Logo"/>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="box col-3">
-                    <div class="box-inter">
-                        <h2>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing eli,
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <img src="images/setaDiagonal.svg" alt="Logo"/>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-            </div>
-        <div class="container">
-            <div class="d-flex justify-content-around row">
-                    <div class="mt-5 box col-3">
-                    <div class="box-inter">
-                        <h2>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing eli,
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <img src="images/setaDiagonal.svg" alt="Logo"/>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="mt-5 box col-3">
-                    <div class="box-inter">
-                        <h2>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing eli,
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <img src="images/setaDiagonal.svg" alt="Logo"/>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="mt-5 box col-3">
-                    <div class="box-inter">
-                        <h2>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing eli,
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <img src="images/setaDiagonal.svg" alt="Logo"/>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-            </div>
-            </div>
-            <div>
-            <div class="d-flex justify-content-center">
-                <button class="contact-button">
-                        Entre em contato
-                </button> 
-            </div>
+                        <div class="box col-sm-12 col-md-6 col-lg-3 m-sm-1  m-lg-5">
+                            <div class="box-inter">
+                                <h2>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing eli,
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
+                                </p>
+                                <div class="d-flex justify-content-end">
+                                    <img src="images/setaDiagonal.svg" alt="Logo"/>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="box col-sm-12 col-md-6 col-lg-3 m-sm-1  m-lg-5">
+                            <div class="box-inter">
+                                <h2>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing eli,
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
+                                </p>
+                                <div class="d-flex justify-content-end">
+                                    <img src="images/setaDiagonal.svg" alt="Logo"/>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="box col-sm-12 col-md-6 col-lg-3 m-sm-1  m-lg-5">
+                            <div class="box-inter">
+                                <h2>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing eli,
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
+                                </p>
+                                <div class="d-flex justify-content-end">
+                                    <img src="images/setaDiagonal.svg" alt="Logo"/>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="box col-sm-12 col-md-6 col-lg-3 m-sm-1  m-lg-5">
+                            <div class="box-inter">
+                                <h2>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing eli,
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
+                                </p>
+                                <div class="d-flex justify-content-end">
+                                    <img src="images/setaDiagonal.svg" alt="Logo"/>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="box col-sm-12 col-md-6 col-lg-3 m-sm-1 mt-sm-3 m-lg-5">
+                            <div class="box-inter">
+                                <h2>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing eli,
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa minus maiores blanditiis.
+                                </p>
+                                <div class="d-flex justify-content-end">
+                                    <img src="images/setaDiagonal.svg" alt="Logo"/>
+                                </div>
+                            </div>
+                        </div>             
             </div>
         </div>
+
+                                <div class="d-flex justify-content-center">
+                                    <button class="contact-button">
+                                            Entre em contato
+                                    </button> 
+                                </div>
     </section>
+
     <section class="section-help">
-        <div class="container">
+        <div class="container col-12">
             <div class="row">
                 <h1 class="title-help">
                     Cases
                 </h1>
-                <div class="d-flex justify-content-around">
+                <div class="container">
+                <div class="d-flex justify-content-around row">
                     <div class="py-5 container row col-3" style="background-color: #0075bf; width: 350px; height:350px">
                         <div class="col-12" style="height: 25%">
                             <div class="col-4" style="margin-left: auto">
@@ -228,7 +198,7 @@
                         </div>
 
                         <div class="d-flex flex-column justify-content-end col-12" style="height: 75%">
-                            <h3 style="color: white; fontWeight: 700">
+                            <h3 style="color: white; font-weight: 700">
                                 Godoc
                             </h3>
                             <p style="color: white">
@@ -290,6 +260,7 @@
                             <div style="border: 1px solid black; width: 20px"></div>
                         </div>
                     </div>
+                    </div>
                     </div>      
             </div>
         </div>
@@ -305,7 +276,7 @@
 </div>
         </div>
     </section>    
-    <section class="mt-5">
+    <section class="mt-5 col-12">
     <div class="container">
         <div class="footer">
             <div class="row">

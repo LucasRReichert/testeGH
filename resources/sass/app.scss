@@ -39,33 +39,33 @@ textarea:focus, input:focus, select:focus {
     box-shadow: 5px 5px 5px 5px rgba(0,0,0, 0.5);
     position: absolute;
     background-color: white;
-    .form-title {
-        font-size: 24px;
-        color: #0075bf;
-        font-weight: 700;
-    }
-    
+}
+
+// @media (max-width: 800px) {
+//    .form { right: 5%; }
+// }
+
+.form-title {
+    font-size: 24px;
+    color: #0075bf;
+    font-weight: 700;
+}
+
+.input-form {
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom:1px solid rgba(0,0,0, 0.1);
+}
+
+.input-form:focus {
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;  
 }
 
 .label {
     display: block;
-}
-
-.form-intern {
-    padding: 30px 30px;
-
-    .input-form {
-        border-top: transparent;
-        border-right: transparent;
-        border-left: transparent;
-        border-bottom:1px solid rgba(0,0,0, 0.1);
-    }
-
-    .input-form:focus {
-        border-top: transparent;
-        border-right: transparent;
-        border-left: transparent;  
-    }
 }
 
 .send-button {
@@ -96,19 +96,16 @@ textarea:focus, input:focus, select:focus {
     margin-top: 30px;
 }
 
-.section-help {
-    .title-help {
-        font-size: 36px;
-        color: #0075bf;
-        font-weight: 700;
-    }
-    
+.title-help {
+    font-size: 36px;
+    color: #0075bf;
+    font-weight: 700;
 }
 
 .box {
     border:1px solid black;
+    margin: 10px;
     .box-inter {
-        padding: 20px 15px;
        h2 {
         margin-bottom: 30px;
         font-weight: 700;
